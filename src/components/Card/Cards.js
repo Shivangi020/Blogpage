@@ -41,11 +41,8 @@ function Cards() {
           <h2>Web development</h2>
            <div className='cards__container'>
             <div className='cards__wrapper'>
-
-              
-              <div className='cards__items'>
-              
-                <CardItem
+             <div className='cards__items'>
+               <CardItem
                   src={image2}
                   text='Top Angular Interview Questions and Answers [Updated in 2021]'
                   label='Data Science & ML'

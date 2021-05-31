@@ -14,7 +14,7 @@ function CardItem(props) {
         <a className='cards__item__link' to={props.path}>
           <figure className='cards__item__pic-wrap' data-category={props.label}
            style={{ marginRight: 0,
-            marginLeft: 0}}>
+            marginLeft: 0 ,marginTop:0}}>
             <img
               className='cards__item__img'
               alt='Image'
