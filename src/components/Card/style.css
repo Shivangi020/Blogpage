@@ -11,8 +11,8 @@
     display: flex;
     flex-flow: column;
     /* align-items: center; */
-    /* max-width: 90%;
-    width: 90%; */
+    max-width: 90%;
+    width: 90%;
     margin: 0 auto;
   }
   
@@ -23,7 +23,7 @@
   
   .cards__items {
     margin-bottom: 24px;
-    
+    display: flex;
   }
   
   .cards__item {
@@ -98,6 +98,13 @@
     line-height: 24px;
   }
   
+  @media only screen and (max-width: 729px) {
+    .cards__items{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
