@@ -71,31 +71,28 @@ function Cards() {
             </div>
           </div>
           <div className='cards'>
-          <h2>Interview Preparation</h2>
-          <div className='cards__container'>
+          <h2>Interview Preparations</h2>
+           <div className='cards__container'>
             <div className='cards__wrapper'>
-
-              
-              <div className='cards__items'>
-              
-                <CardItem
-                  src={image3}
-                  text='Top Angular Interview Questions and Answers [Updated in 2021]'
-                  label='Interview'
-                  path=''
-                  tag="Designing"
-                />
-                <CardItem
+             <div className='cards__items'>
+               <CardItem
                   src={image3}
                   text='Building A Good Resume Of A Programmer'
-                  label='Code studio'
+                  label='Data Science & ML'
                   path=''
                   tag="Designing"
                 />
                 <CardItem
                   src={image3}
-                  text='How To Crack Off-Campus Internships/Placements?'
-                  label='Code studio'
+                  text='How To Crack Off-Campus Internships?'
+                  label='Data Science & ML'
+                  path=''
+                  tag="Designing"
+                />
+                <CardItem
+                  src={image3}
+                  text='Top 30 Hadoop Interview Questions You Must Prepare'
+                  label='Data Science & ML'
                   path=''
                   tag="Designing"
                 />
@@ -106,6 +103,8 @@ function Cards() {
               </div>
             </div>
           </div>
+
+  
  </div>
  )
 
