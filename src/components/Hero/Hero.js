@@ -10,7 +10,7 @@ import image1 from "../../images/image1.jpg"
 const Hero = (props) => {
   return(
     <div class="header_container">
-        <div className="div1">
+        <div className="header_card">
           <div className="image_header"><img src={image1}/>
         </div>
         </div>

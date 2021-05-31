@@ -32,8 +32,10 @@ function CardItem(props) {
             <a className='cards__item__text' href={props.text}>{props.text}</a>
             <div className="tab">
                 <span className="round-tab">{props.tag}</span>
+                <span className="round-tab">{props.tag}</span>
+                <span className="round-tab">{props.tag}</span> 
             </div>
-            <button>Read more</button>
+            <div className="btn"><button>Read more</button></div>
 
           </div>
         </a>
