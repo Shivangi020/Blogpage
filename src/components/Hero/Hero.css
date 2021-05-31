@@ -1,8 +1,9 @@
 .header_container{
     display: flex;
-    border: 2px solid rebeccapurple;
+    
     /* max-width: 90%;
     width: 90%; */
+    height: auto;
     margin: 0 auto;
     justify-content: space-between;
 
@@ -10,9 +11,20 @@
 
 .div1{
     width: 67%;
-    background-color:blueviolet
+    height: auto;
+    
 }
 
+.div1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.image_header a{
+    position: absolute;
+display: inline;
+
+}
 .div2{
     width: 30%;
     background-color: brown;
