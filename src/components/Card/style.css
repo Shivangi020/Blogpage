@@ -11,9 +11,9 @@
     display: flex;
     flex-flow: column;
     /* align-items: center; */
-    /* /* max-width: 90%; */
+     /* max-width: 90%; */
     /* width: 90%;  */
-    /* margin: 60px 
+    /* margin: 50px */
   }
   
   .cards__wrapper {
@@ -23,7 +23,7 @@
   
   .cards__items {
     margin-bottom: 24px;
-    /* display: flex; */
+    display: flex;
   }
   
   .cards__item {
@@ -91,9 +91,9 @@
   }
   
 
-  .cards__item__info {
+  /* .cards__item__info {
     padding: 20px 30px 30px;
-  }
+  } */
   
   .cards__item__text {
     color: #252e48;
@@ -161,7 +161,7 @@
 
 
   
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 798px) {
     .cards__items{
       display: flex;
       flex-direction: column;
