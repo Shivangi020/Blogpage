@@ -1,9 +1,19 @@
 .header_container{
     display: flex;
-    flex-flow: column;
-    /* align-items: center; */
+    border: 2px solid rebeccapurple;
     /* max-width: 90%;
     width: 90%; */
     margin: 0 auto;
+    justify-content: space-between;
 
+}
+
+.div1{
+    width: 67%;
+    background-color:blueviolet
+}
+
+.div2{
+    width: 30%;
+    background-color: brown;
 }
