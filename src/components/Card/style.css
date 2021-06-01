@@ -69,7 +69,7 @@ h2 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #f49f1f;
+  background-color: #ec7c2d;
   box-sizing: border-box;
   border-radius: 6px;
   border-top-right-radius: 0px;
@@ -104,7 +104,7 @@ h2 {
   
 }
 .cards__item__text:hover {
-  color: #ebac4f;
+  color: #ec7c2d;
 
 }
 
@@ -136,7 +136,7 @@ h2 {
   padding-right: 26px; */
   justify-content:space-between;
 }
-.icon_size{
+.icon_s{
   display: flex;
   
 }
@@ -147,7 +147,7 @@ button{
   margin-top:  2px ;
   font-size: 14px;
   font-weight: 400;
-  background:#f49f1f;
+  background:#ec7c2d;
   color:white;
   max-width: 271px;
   margin-bottom: 24px;
