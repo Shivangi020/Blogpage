@@ -72,7 +72,8 @@ h2 {
   background-color: #ec7c2d;
   box-sizing: border-box;
   border-radius: 6px;
-  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .cards__item__img {
@@ -95,7 +96,7 @@ h2 {
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 24px;
   font-weight: 600;
   padding: 6px 0px;
@@ -161,6 +162,7 @@ button{
  }
  .btn{
   display: flex;
+  padding-left: 20px;
   
 }
 .cards__item__info {

@@ -33,8 +33,9 @@ function CardItem(props) {
                 <span className="round-tab">{props.tag}</span>
                 <span className="round-tab">{props.tag}</span> 
                 </div>
-            <div className="btn"><button>Read more</button></div>
+            
           </div>
+          <div className="btn"><button>Read more</button></div>
         </a>
       </div>
      
