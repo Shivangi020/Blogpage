@@ -70,7 +70,8 @@
     
 }
 #container {
-    position: relative;    
+    position: relative;   
+    border-radius: 6px; 
 }
 
 .recent_card{

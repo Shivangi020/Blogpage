@@ -101,6 +101,8 @@ h2 {
   padding: 6px 0px;
   text-decoration: none;
   letter-spacing: 1px;
+  margin-bottom: 0;
+  margin-top: 0px;
   
 }
 .cards__item__text:hover {
@@ -121,7 +123,7 @@ h2 {
 
 .round-tab{
   margin-bottom: 6px;
-  margin-right: 8px;
+  margin-right: 2px;
   border-radius: 25px;
   padding: 2px 7px;
   color: #1f1e1d;
