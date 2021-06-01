@@ -21,22 +21,24 @@ function CardItem(props) {
               src={props.src}
             />
           </figure>
+          <div className='cards__item__info'>
           <div className="info-icons">
             
-            <div className=" icon-size"><img className="start-icon" src={user}/><span className="icon-name" >name </span></div>
-            <div className=" icon-size"><img className="start-icon" src={like}/><span className="icon-name" >33 </span></div>
-            <div className=" icon-size"><img className="start-icon" src={date}/><span className="icon-name" >Date </span></div>
+            <div className=" icon-size"><img className="icon" src={user}/><span className="icon-name" >name </span></div>
+            <div className=" icon-size"><img className="icon" src={like}/><span className="icon-name" >33 </span></div>
+            <div className=" icon-size"><img className="icon" src={date}/><span className="icon-name" >Date </span></div>
          
          </div>
-          <div className='cards__item__info'>
+         
             <a className='cards__item__text' href={props.text}>{props.text}</a>
             <div className="tab">
                 <span className="round-tab">{props.tag}</span>
                 <span className="round-tab">{props.tag}</span>
                 <span className="round-tab">{props.tag}</span> 
+                
             </div>
+            
             <div className="btn"><button>Read more</button></div>
-
           </div>
         </a>
       </div>

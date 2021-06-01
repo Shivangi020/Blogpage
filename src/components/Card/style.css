@@ -91,9 +91,7 @@ h2 {
 }
 
 
-.cards__item__info {
-  padding: 20px 30px 30px;
-}
+
 
 .cards__item__text {
   color: #252e48;
@@ -133,20 +131,20 @@ h2 {
 .info-icons{
   display: flex;
   flex-wrap: nowrap;
-  padding: 6px ;
-  padding-left: 26px;
-  padding-right: 26px;
+  
+  /* padding-left: 26px;
+  padding-right: 26px; */
   justify-content:space-between;
 }
 .icon_size{
   display: flex;
   
 }
-.start-icon{
+.icon{
   margin-right: 6px;
 }
 button{
-  margin: 6px 0 24px 6px;
+  margin-top:  2px ;
   font-size: 14px;
   font-weight: 400;
   background:#f49f1f;
@@ -161,7 +159,10 @@ button{
  }
  .btn{
   display: flex;
-  justify-content: center;
+  
+}
+.cards__item__info {
+  padding: 20px 20px 20px;
 }
 
 

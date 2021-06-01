@@ -9,13 +9,17 @@ import image1 from "../../images/image1.jpg"
 
 const Hero = (props) => {
   return(
-    <div class="header_container">
-        <div className="header_card">
-          <div className="image_header"><img src={image1}/>
-        </div>
-        </div>
-        <div className="div2">fig2</div>
+ <div className="header_container">
+   <div className="div1"><img src={image1} className="image1"/></div>
+   <div className="div2">
+    <div style={{background:"red"}}className="recent_card"><img src={image1} className="image2"/>
+     <div className="text_overlay"><a></a></div></div>
+     <div style={{background:"red"} }className="recent_card"><img src={image1} className="image2"/>
+     <div className="text_overlay"><a></a></div></div></div>
 </div>
+
+
+
   )
 
  }
