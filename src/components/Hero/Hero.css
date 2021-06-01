@@ -3,8 +3,10 @@
     flex-direction: column;
     height: auto;
     margin: 0 auto;
-    margin-top:10px
-
+    margin-top:10px;
+    margin-left:8px;
+    margin-right: 8px;
+    padding:8px ;
 }
 
 .div1{
@@ -16,13 +18,32 @@
 #containr {
     position: relative;
     width: 100%;
-    height: 100%;    
+    height: 100%;  
+    
+    
 }
 
+.cards__item__pic-wrap1::after {
+    content: "CODE";
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    /* max-width: calc((100%) - 60px); */
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ec7c2d;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+}
 .image1{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: inset 5px 10px 8px #888888;
     
 
 }
@@ -35,8 +56,8 @@
 .example {
    position: absolute;
     bottom:10px;
-   padding-bottom: 40px;
-   padding-left: 20px;
+   padding-bottom: 5px;
+   padding-left: 15px;
    font-size: 20px;
    color: #fff;
 }
@@ -46,24 +67,64 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    
+}
+#container {
+    position: relative;    
 }
 
 .recent_card{
     display: flex;
-    margin-top:10px
+    margin-top:10px;
+    margin-bottom: 20px;
+    /* padding:20px; */
+    background-color: #333;
+    align-items: stretch;
+    border-radius: 6px;
 }
-
+/* .d{
+    width:450px;
+    height: auto;
+   
+} */
 .image2{
-    width:30%;
+    width:100%;
+    height: 100%;
     object-fit: cover;
 }
-
 .text_overlay{
-    font-size: 20px;
-    padding:30px ;
-    
-    font-weight: 700;
+    position: absolute;
+    bottom:10px;
+   /* padding-bottom: 15px; */
+   padding-left: 15px;
+   font-size: 20px;
+   color: #fff;
 }
+.tab_h{
+    font-size: 13px;
+    display: flex; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* display: inline-block; */
+    padding: 8px;
+    padding-left: 0px;
+  }
+  
+  .round-tab_h{
+    margin-bottom: 6px;
+    margin-right: 8px;
+    border-radius: 25px;
+    padding: 2px 7px;
+    color: #1f1e1d;
+    background-color:#eceae7 ;
+  }
+/* .text_overlay{
+    font-size: 20px;
+    padding-left: 15px ;
+    color: #fff;
+    font-weight: 700;
+} */
+
 @media only screen and (min-width: 900px) {
     .header_container{
         display: flex;
@@ -84,6 +145,7 @@
     .div2{
         width: 35%;
         
+        
     }
      .image2{
         width:100%;
@@ -92,14 +154,27 @@
     .text_overlay{
         position: absolute;
         bottom:10px;
-       padding-bottom: 40px;
-       padding-left: 20px;
+       /* padding-bottom: 15px; */
+       padding-left: 15px;
        font-size: 20px;
        color: #fff;
     }
     #container {
         position: relative;    
     }
- 
+    /* .d{
+        width:500px;
+        height: auto;
+    } */
+    .recent_card{
+        margin-bottom: 0px;
+    }
 
+}
+@media only screen and (max-width: 479px){
+    .tab_h{
+        font-size: 10px;
+        
+    }
+      
 }
